@@ -33,16 +33,6 @@ while nod3==nod
     nod3=randi(c);
 end
 b=sum(A');
-%[row1,col1]=find(A(nod,:)==1);
-%[row2,col2]=find(A(nod2,:)==1);
-%[row3,col3]=find(A(nod3,:)==1);
-%kol=sum(sum(A));
-%Derae=sum(b(col1(1,:)));
-%Derae2=sum(b(col2(1,:)));
-%Derae3=sum(b(col3(1,:)));
-%ehtemal=Derae/kol;
-%ehtemal2=Derae2/kol;
-%ehtemal3=Derae3/kol;
 Derae=b(nod);
 Derae2=b(nod2);
 Derae3=b(nod3);
